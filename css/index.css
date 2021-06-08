@@ -23,7 +23,7 @@ a {
 }
 
 /* quadrado do lado do texto */
-a:before{
+a::before{
     content:"";
     background-color: #EB6860;
     width: 10px;
