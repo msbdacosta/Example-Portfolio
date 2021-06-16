@@ -1,0 +1,20 @@
+/* header-text */
+.action {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+/* quadrado do lado do texto */
+.action::before{
+    content:"";
+    background-color: #EB6860;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}

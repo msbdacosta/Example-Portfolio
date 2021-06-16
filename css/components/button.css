@@ -1,13 +1,14 @@
 .button {
     display: inline-block;
-    background-color: #EB6860;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;   
+    background-color: #EB6860;  
     box-shadow: 5px 5px 0 #000;
+    padding: 18px 20px;
     margin-right: 0;
     transition: transform 100ms ease-in-out;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    font-family: Montserrat;
 }
 
 .button:hover{
